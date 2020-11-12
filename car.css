@@ -1,0 +1,14 @@
+.nav{
+    border-top: 1px solid gray;
+
+}
+.nav a{
+    color: gray !important;
+}
+.nav a:hover{
+    color: black !important;
+}
+.navbar{
+    background-color: white !important;
+    
+}

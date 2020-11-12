@@ -1,0 +1,55 @@
+.card{
+    transition: 0.4s ease;
+    border-left:5px solid yellow !important ;
+}
+
+.card-header{
+    font-size: 1.6rem;
+    font-weight: bold;
+    background: #fff !important;
+    padding: 25px 0 !important;
+}
+
+/* .card-body{
+    padding: 30px 0px !important;
+} */
+.card-body li{
+    margin: 10px 0;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #606060;
+}
+
+.card-footer{
+    background: white !important;
+    padding: 30px 0px !important;
+}
+
+ a{
+     list-style: none !important;
+     list-style-type: none !important;
+ }
+
+
+
+.card:hover .card-footer a{
+    color:#fff ;
+    background: #50d1c0;
+    text-decoration: none;
+    box-shadow: 0 0 20px 0 rgba(0, 0,0, 0.3);
+}
+
+/* .card:hover{
+    transform: translateY(-20px);
+    box-shadow: 0 0 20px 0 rgba(0, 0,0, 0.3);
+
+} */
+
+.card:hover .card-header,.card:hover .money{
+    color: #50d1c0;
+}
+img{
+    height: 150px;
+    width: 70px;
+}
